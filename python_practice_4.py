@@ -13,3 +13,8 @@ n=10
 print(mult_list(n))
 
 #Write a Python function called rev_string() to reverse a string.
+def rev_string(x):
+    return x[::-1]
+
+string = rev_string('I am backwards')
+print(string)
